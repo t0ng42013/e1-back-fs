@@ -169,19 +169,27 @@ animation: mover .3s linear infinite alternate;
     justify-content: center;
   }
   .hero__button a {
-    width: 50%;
+    width:80%;
   }
   .hero__section__img {
     overflow: visible;
     padding: 0;
   }
   .hero__section__container{
-    width: 60%;
+    width: 88%;
     margin-left: auto;
     margin-right: 2em;
   }
 
-  
+  .about {
+    margin-top: 2rem;    
+  }
+.about__description{
+    line-height: 2.3rem;
+}
+.card__items__container{
+    grid-auto-flow: row;
+}
 }
 
 @keyframes mover {
