@@ -2,14 +2,15 @@
 
 :root {
   --bg-color: #121313;
-  --text-color: #adaaaa;
+  --text-color: #fff;
   --text-color-secondary: #999;
-  --btn-color: #fafafa;
+  --btn-color: #f37715;
   --btn-color-hover: #111;
   --border-light-color: #eee;
   --sm: 14px;
   --md: 16px;
   --lg: 18px;
+  
 }
 
 * {
@@ -19,25 +20,16 @@
   font-family: "Montserrat Alternates", "Roboto", sans-serif;
   text-decoration: none;
   list-style: none;
+  background-color: #0b0e13;
 }
 
-body {
-  max-width: 1200px;
+body { 
   margin: auto;
-  background: rgb(7, 7, 60);
-  /* color: white; */
+
 }
 
-.Forma_316_1 {
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-}
 header {
-  background: #336;
+ 
 }
 
 .main-nav {
@@ -69,6 +61,7 @@ section {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+  background-image: url(../Recurso\ 3@4x.png);
   color: #999;
   position: relative;
   z-index: 1;
@@ -120,7 +113,7 @@ section {
 }
 /* ***************************** */
 .card-section {
-  max-width: 1200px;
+ 
   flex-direction: column;
   align-items: center;
   justify-content: center;

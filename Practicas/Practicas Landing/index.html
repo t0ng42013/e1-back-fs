@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- iconos -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Landin-Page</title>
     <link rel="shortcut icon" href="./assets/logosm.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./assets/css/estilos.css" />
   </head>
   <body>
-  
     <header>
       <nav class="main-nav">
         <figure class="logo-container">
@@ -20,8 +25,9 @@
           <span></span>
           <span></span>
         </label>
-        <input type="checkbox" name="hamburger" id="hamburger">
-        
+
+        <input type="checkbox" name="hamburger" id="hamburger" />
+
         <ul class="nav-items">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Acerca de mí</a></li>
@@ -29,113 +35,178 @@
           <li><a href="#">Contacto</a></li>
         </ul>
       </nav>
-     
     </header>
 
     <main>
-      <section>
-           <svg
-      class="Forma_316_1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      width="1204.5px"
-      height="352.5px"
-    >
-      <defs>
-        <radialGradient id="PSgrad_0">
-          <stop offset="23%" stop-color="rgb(51,102,204)" stop-opacity="1" />
-          <stop offset="95%" stop-color="rgb(51,51,102)" stop-opacity="1" />
-        </radialGradient>
-      </defs>
-      <path
-        fill-rule="evenodd"
-        stroke="#333399"
-        stroke-width="1px"
-        stroke-linecap="butt"
-        stroke-linejoin="miter"
-        fill="url(#PSgrad_0)"
-        d="M1.500,326.511 C1.755,326.502 59.124,372.464 177.244,337.202 C302.837,304.552 1166.319,106.14 1202.423,97.720 C1202.538,61.152 1202.423,1.500 1202.423,1.500 L1.500,1.500 L1.500,326.511 Z"
-      />
-    </svg> 
-        <div class="hero-section">
-          <h2 class="hero-title">Your company slogan here</h2>
-          <p class="hero-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestias unde asperiores nihil, consequuntur qui.
+      <section class="hero-bg">
+        <div></div>
+      </section>
+
+      <section class="hero">
+        <div class="hero__content">
+          <section class="hero__grid">
+            <section class="hero__section">
+              <section class="hero__heading">
+                <h1 class="hero__title">
+                  Convertir ideas en realidad: soluciones innovadoras para
+                  impulsar tus proyectos creativos
+                </h1>
+              </section>
+              <p class="hero__description">
+                Software Engineer, Front end & App Developer.
+              </p>
+              <div class="hero__button">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  Learn more
+                </a>
+              </div>
+            </section>
+
+            <section class="hero__section__img">
+              <div class="hero__section__container">
+                <div class="img__windowOff">
+                  <figure>
+                    <img src="./assets/PNG/Recurso 3@4x.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__windowOn">
+                  <figure>
+                    <img src="./assets/PNG/Recurso 4@4x.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__text">
+                  <figure>
+                    <img src="./assets/PNG/text.png" alt="" />
+                  </figure>
+                </div>
+                <div class="w-little">
+                  <figure>
+                    <img src="./assets/PNG/w-little.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__circulos">
+                  <figure>
+                    <img src="./assets/png/circulos.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__text2">
+                  <figure>
+                    <img src="./assets/png/text-2.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__w-hight">
+                  <figure>
+                    <img src="./assets/png/w-hight.png" alt="" />
+                  </figure>
+                </div>
+                <div class="img__mult-w">
+                  <figure>
+                    <img src="./assets/png/mult-w.png" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__bg"></div>
+        <div class="about__content">
+          <p class="about__description">
+            Mi nombre es Gastón y soy un apasionado estudiante de programación
+            en busca de mi primer empleo en el campo de tecnología de la
+            información. Durante los últimos dos años, me he dedicado al estudio
+            y desarrollo de proyectos pequeños para consolidar mis habilidades
+            como programador. Estoy entusiasmado por compartir algunos de los
+            proyectos en los que he trabajado hasta ahora.
           </p>
-          <div class="hero-buttons">
-            <button>learn more</button>
-          </div>
-        </div>
-
-        <figure class="hero-image">
-          <img src="./assets/undraw_programming_re_kg9v.svg" alt="imagen" />
-        </figure>
-      </section>
-
-      <section class="about-section">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          harum voluptatibus dicta quia similique quod voluptate dolore iure
-          cupiditate. Dolor unde soluta reiciendis magni numquam beatae cum
-          repellat autem sequi.
-        </p>
-      </section>
-
-      <section class="card-section">
-        <h2>Our Advantages</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci nemo commodi facilis, laborum blanditiis!</p>
-        <div class="card-container">
-          <div>
-            <figure>
-              <img src="./assets/Recurso 3.png" alt="">
-            </figure>
-            <h3 class="card-title">Benefit 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque, natus dolore tempora pariatur autem.</p>
-          </div>
-          <div>
-            <figure>
-              <img src="./assets/Recurso 3.png" alt="">
-            </figure>
-            <h3 class="card-title">Benefit 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque, natus dolore tempora pariatur autem.</p>
-          </div>
-          <div>
-            <figure>
-              <img src="./assets/Recurso 3.png" alt="">
-            </figure>
-            <h3 class="card-title">Benefit 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque, natus dolore tempora pariatur autem.</p>
-          </div>
         </div>
       </section>
 
-      <section class="contact-section">
-        <h2>Contact Us</h2>
-        <div>
-          <h4>Lorem ipsum dolor sit amet.</h4>
-          <ol>
-            <li>calle falsa 123</li>
-            <li>mail@mail.com</li>
-            <li>3548 123456</li>
-          </ol>
-      
-          <figure>
-            <img src="./assets/854878.png" alt="maps">
-          </figure>
-        </div>
-            <div class="redes">
-              <a href="#" target="_blank" rel="noopener noreferrer"><img width="50px" src="./assets/Sin título.jpg" alt="redes1"></a>
-            
-            <a href="#" target="_blank" rel="noopener noreferrer"><img width="50px" src="./assets/Sin título.jpg" alt="redes1"></a>
+      <section class="card">
+        <div class="card__content">
+          <h2 class="card__title">Proyectos</h2>
 
-             <a href="#" target="_blank" rel="noopener noreferrer"><img width="50px" src="./assets/Sin título.jpg" alt="redes1"></a>
+          <div class="card__items__container">
+            <div class="card__border">
+              <figure>
+                <img src="./assets/Sin título-2.jpg" alt="" />
+              </figure>
+              <h3 class="card__items__title">Challenges Inicial</h3>
+              <p class="card__items__description">
+                Este proyecto es un portafolio de maquetación básica en el que
+                he creado varias páginas web utilizando HTML, CSS y algo de
+                JavaScript. ¡Espero que disfrutes explorando mi portafolio de
+                maquetación y que puedas apreciar mi dedicación y pasión por el
+                desarrollo front-end! Si tienes alguna pregunta o comentario, no
+                dudes en contactarme. Gracias por tu interés y consideración.
+              </p>
+              <div class="card__items__button">
+                <a
+                  href="https://challenges-git-master-gastonalonso.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver mas</a
+                >
+              </div>
+            </div>
+            <div class="card__border">
+              <figure>
+                <img src="./assets/Sin título-1.jpg" alt="" />
+              </figure>
+              <h3 class="card__items__title">Challenges Intermedio</h3>
+              <p class="card__items__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur culpa numquam possimus sint voluptates adipisci
+                voluptate, ab placeat reprehenderit earum, ratione animi. Error,
+                perspiciatis rerum odio, repellendus mollitia nulla laudantium
+                voluptatem vel tenetur sint incidunt.
+              </p>
+            </div>
+            <div class="card__border">
+              <figure>
+                <img src="./assets/Sin título-0.jpg" alt="" />
+              </figure>
+              <h3 class="card__items__title">Challenges Avanzados</h3>
+              <p class="card__items__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur culpa numquam possimus sint voluptates adipisci
+                voluptate, ab placeat reprehenderit earum, ratione animi. Error,
+                perspiciatis rerum odio, repellendus mollitia nulla laudantium
+                voluptatem vel tenetur sint incidunt. Ex eligendi explicabo quod
+                culpa
+              </p>
+            </div>
           </div>
-      </section><hr>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact__content">
+          <div class="contact__body">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+             <i class='bx bxl-github icon' ></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-facebook-circle icon"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-whatsapp icon"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="bx bx-envelope icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr />
 
       <footer>
-        
-        <img src="./assets/logosm.png" alt="logo">
-        <span>©opyright all rights reserved</span>
+        <div class="foot__content">
+          <img src="./assets/logosm.png" alt="logo" />
+          <span>©opyright all rights reserved</span>
+        </div>
       </footer>
     </main>
   </body>
