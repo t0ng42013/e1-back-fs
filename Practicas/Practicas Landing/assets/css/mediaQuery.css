@@ -201,7 +201,7 @@ background-color: black;
   width: 100%;
  position: absolute;
  top: 50%;
- transform: translatY(50%);
+ 
 }
 .logo-overlay {
   font-size: 2em;
