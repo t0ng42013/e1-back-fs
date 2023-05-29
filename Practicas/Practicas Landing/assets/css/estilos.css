@@ -3,11 +3,11 @@
   --color-tilte: #fcffff;
   --color-gray: #767680; /*! Mejorar Nombre*/
   font-size: 62.5%;
-  --xl:4.5rem;
-  --l:3.5rem;
-  --m:2.5rem;
-  --s:1.5rem;
-  --xs:1rem;
+  --xl: 4.5rem;
+  --l: 3.5rem;
+  --m: 2.5rem;
+  --s: 1.5rem;
+  --xs: 1rem;
 }
 * {
   margin: 0;
@@ -17,10 +17,31 @@
   list-style: none;
   color: #fcffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--bg);
+}
+
+.logo__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: ocultar 4s linear forwards;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo__content__video {
+  position: absolute;
+  z-index: -1;
+}
+
+.logo__content__imagen {
+  width: 100px;
 }
 
 header {
@@ -33,7 +54,7 @@ header {
   height: 9.6rem;
 }
 
-.main-nav {
+.main-nav {  
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -71,11 +92,13 @@ input,
   transition: 0.5s;
   font-weight: 600;
   padding: 0.6rem 1.5rem;
+  
 }
 
 .nav-items li a:hover {
   color: var(--color-gray);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .nav-items li a::after {
@@ -209,7 +232,7 @@ input,
 .hero__section__img figure {
   max-width: 45rem;
   position: absolute;
-  padding: 2em; 
+  padding: 2em;
   bottom: 0;
   left: 0;
 }
@@ -230,24 +253,24 @@ input,
 }
 
 .w-little img {
-  opacity: 0;  
+  opacity: 0;
   animation: programming 1s 6s ease-in-out forwards;
 }
 .img__circulos img {
-  opacity: 0;  
-  z-index: -1; 
+  opacity: 0;
+  z-index: -1;
   animation: programming 5s 11s ease-in-out forwards;
 }
 .img__text2 img {
-  transform: scale(0);  
+  transform: scale(0);
   animation: programming2 2s 8s linear forwards;
 }
 .img__w-hight img {
-  transform: scale(0);  
+  transform: scale(0);
   animation: programming2 3s 9s linear forwards;
 }
 .img__mult-w img {
-  transform: scale(0);  
+  transform: scale(0);
   animation: programming2 3s 10s linear forwards;
 }
 /* ***************************************** */
@@ -511,5 +534,52 @@ footer {
   }
   100% {
     filter: drop-shadow(12px 2px 14px white);
+  }
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+  animation: fade-out 4s forwards;
+}
+
+.video-container video {
+  width: 100%;
+}
+
+.logo-overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url("../logosm.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  animation: fade-out 3s forwards;
+  display: flex;
+  justify-content: center;
+  line-height: 4em;
+  font-size: 8em;
+}
+
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
   }
 }
