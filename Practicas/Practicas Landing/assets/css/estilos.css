@@ -546,7 +546,7 @@ footer {
   width: 100%;
   overflow: hidden;
   z-index: 999;
-  animation: fade-out 4s forwards;
+  animation: fade-out 4s infinite forwards;
 }
 
 .video-container video {
