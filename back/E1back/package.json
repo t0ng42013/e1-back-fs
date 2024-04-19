@@ -1,0 +1,18 @@
+{
+  "name": "e1back",
+  "version": "1.0.0",
+  "description": "aplicación CLI para guardar nuestros gastos en un archivo JSON.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src/index.js"
+  },
+  "keywords": [],
+  "author": "Gaston Alonso",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19",
+    "save": "^2.9.0"
+  }
+}
